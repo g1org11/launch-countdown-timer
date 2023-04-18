@@ -117,3 +117,56 @@ footer {
   margin-bottom: 48px;
   z-index: 1;
 }
+@media only screen and (min-width: 800px) {
+  main {
+    margin: 132px 24px 0px;
+  }
+  h1 {
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 7.5;
+  }
+  #timer {
+    gap: 32px;
+    margin-top: 104px;
+  }
+  .box {
+    width: 148px;
+    height: 140px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+  .number {
+    font-size: 80px;
+    letter-spacing: -2.4px;
+  }
+  .parts {
+    gap: 136px;
+  }
+  .ball {
+    width: 12px;
+    height: 12px;
+  }
+  .line {
+    width: 136px;
+  }
+  h3 {
+    font-size: 14px;
+    line-height: 18.5px;
+    letter-spacing: 6px;
+  }
+
+  footer {
+    height: 200px;
+  }
+  .background {
+    height: 200px;
+    margin-right: 0px;
+  }
+  .contact {
+    margin-bottom: 72px;
+  }
+  .contact img:hover {
+    filter: invert(59%) sepia(38%) saturate(6007%) hue-rotate(314deg) brightness(105%) contrast(97%);
+  }
+}
